@@ -1,0 +1,7 @@
+<h1>Hello there!</h1>
+
+<ul>
+  <li *ngFor="let user of users | async">
+    {{ user.id }} - {{ user.username }}
+  </li>
+</ul>
